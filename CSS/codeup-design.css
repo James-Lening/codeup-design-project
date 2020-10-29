@@ -78,6 +78,11 @@ nav .nav-item {
     margin: 12px auto;
 }
 
+#paragraph{
+    margin-top: 75px;
+    text-align: center;
+}
+
 
 
 @media screen and (min-width: 992px) {
