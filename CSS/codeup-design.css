@@ -83,6 +83,32 @@ nav .nav-item {
     text-align: center;
 }
 
+.btn-circle.btn-sm {
+    width: 18px;
+    height: 18px;
+    padding: 6px 0px;
+    border-radius: 15px;
+    font-size: 8px;
+    text-align: center;
+    margin: 0px 0px 0px 10px;
+}
+#laptop{
+    border-style: solid;
+    border-color: #E6E6E6;
+    border-width: 10px;
+    border-radius: 5px;
+}
+#featured{
+    margin-bottom: 30px;
+}
+.card{
+    background-color: #f0f0f0;
+    border: none;
+}
+#icons{
+    background-color: #f0f0f0 ;
+}
+
 
 
 @media screen and (min-width: 992px) {
