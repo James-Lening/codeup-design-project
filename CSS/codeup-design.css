@@ -1,7 +1,8 @@
 body {
-    font-family: 'Abel', sans-serif;
+    font-family: "Abel", sans-serif;
     background: #f0f0f0;
 }
+
 
 .wrapper {
     max-width: 1100px;
@@ -29,7 +30,55 @@ nav a {
 nav .nav-item {
     position: relative;
     bottom: 6px;
+
 }
+
+#header{
+    font-family: "ANTON REGULAR";
+}
+#parkcity{
+    font-family: "ANTON REGULAR";
+}
+
+#designbtn {
+    background-color: #E6563B;
+    color: white;
+    text-align: center;
+}
+
+#developbtn {
+    background-color: #DEA03D;
+    color: white;
+
+    align-content: center;
+
+
+}
+#supportbtn {
+    background-color: #7CB06C;
+    color: white;
+
+}
+#hostbtn {
+    background-color: #00ABA9;
+    color: white;
+
+}
+
+.btn-circle.btn-xl {
+    width: 105px;
+    height: 105px;
+    padding: 16px 16px;
+    border-radius: 90px;
+    font-size: 13px;
+    text-align: center;
+    border-color: 9px solid white;
+    font-weight: 900;
+    font-family: "ANTON REGULAR";
+    margin: 12px auto;
+}
+
+
 
 @media screen and (min-width: 992px) {
     .sub-title {text-align: left;}
