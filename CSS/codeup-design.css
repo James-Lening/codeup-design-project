@@ -35,6 +35,7 @@ nav .nav-item {
 
 #header{
     font-family: "ANTON REGULAR";
+    align-text: center;
 }
 #parkcity{
     font-family: "ANTON REGULAR";
@@ -43,25 +44,37 @@ nav .nav-item {
 #designbtn {
     background-color: #E6563B;
     color: white;
-    text-align: center;
+
+    border-style: solid;
+    border-color: white;
+    border-width: 5px;
+
 }
 
 #developbtn {
     background-color: #DEA03D;
     color: white;
+    border-style: solid;
+    border-color: white;
+    border-width: 5px;
 
-    align-content: center;
 
 
 }
 #supportbtn {
     background-color: #7CB06C;
     color: white;
+    border-style: solid;
+    border-color: white;
+    border-width: 5px;
 
 }
 #hostbtn {
     background-color: #00ABA9;
     color: white;
+    border-style: solid;
+    border-color: white;
+    border-width: 5px;
 
 }
 
@@ -81,6 +94,7 @@ nav .nav-item {
 #paragraph{
     margin-top: 75px;
     text-align: center;
+    margin-bottom: 30px;
 }
 
 .btn-circle.btn-sm {
@@ -90,7 +104,20 @@ nav .nav-item {
     border-radius: 15px;
     font-size: 8px;
     text-align: center;
-    margin: 0px 0px 0px 10px;
+    margin: 0px auto;
+
+}
+#D1btn {
+    background-color: #E6563B;
+}
+#D2btn{
+    background-color: #DEA03D;
+}
+#Sbtn {
+    background-color: #7CB06C;
+}
+#Hbtn {
+    background-color: #00ABA9;
 }
 #laptop{
     border-style: solid;
@@ -98,8 +125,15 @@ nav .nav-item {
     border-width: 10px;
     border-radius: 5px;
 }
+
+#firstcard{
+    align-content: center;
+}
 #featured{
+    display: flex;
     margin-bottom: 30px;
+
+
 }
 .card{
     background-color: #f0f0f0;
@@ -107,11 +141,12 @@ nav .nav-item {
 }
 #icons{
     background-color: #f0f0f0 ;
+    margin-top: -15px;
 }
 
 
 
-@media screen and (min-width: 992px) {
+@media screen and (min-width: 649px) {
     .sub-title {text-align: left;}
     hr {width: 100%;}
 
@@ -119,4 +154,14 @@ nav .nav-item {
         position: relative;
         top: 5px;
     }
+.card-deck {
+    width: 100%;
+
+}
+
+
+
+
+
+
 }
