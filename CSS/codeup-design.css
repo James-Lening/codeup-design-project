@@ -235,15 +235,19 @@ nav .nav-item {
         border-color: 9px solid white;
         font-weight: 900;
         font-family: "ANTON REGULAR";
-        margin: 12px auto;
+        margin: 12px 0px;
+
     }
 
     #paragraph{
-        margin-top: 75px;
+        margin-top: 10px;
         text-align: center;
         margin-bottom: 30px;
     }
-
+    .developmentrow{
+        display: flex;
+        justify-content: center;
+    }
     .btn-circle.btn-sm {
         width: 18px;
         height: 18px;
@@ -267,6 +271,12 @@ nav .nav-item {
     }
     .blue {
         background-color: #00ABA9;
+    }
+
+    .card-img-top{
+        width: 100%;
+        height: 40vh;
+        object-fit: cover;
     }
     #laptop{
         border-style: solid;
@@ -299,9 +309,6 @@ nav .nav-item {
     #featured{
         display: flex;
         margin-bottom: 30px;
-
-
-
     }
     .card{
         background-color: #f0f0f0;
