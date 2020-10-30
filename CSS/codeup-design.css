@@ -109,16 +109,16 @@ nav .nav-item {
     margin: 0px auto;
 
 }
-#D1btn {
+.red {
     background-color: #E6563B;
 }
-#D2btn{
+.yellow{
     background-color: #DEA03D;
 }
-#Sbtn {
+.green {
     background-color: #7CB06C;
 }
-#Hbtn {
+.blue {
     background-color: #00ABA9;
 }
 #laptop{
@@ -164,11 +164,11 @@ nav .nav-item {
     background-color: #f0f0f0 ;
     margin-top: -15px;
 
+
 }
 
 
-
-@media screen and (min-width: 649px) {
+@media screen and (min-width: 768px) {
     .sub-title {text-align: left;}
     hr {width: 100%;}
 
@@ -176,8 +176,143 @@ nav .nav-item {
         position: relative;
         top: 5px;
     }
-.card-deck {
-    width: 100%;
+    .card-deck {
+        width: 100%;
+    }
+
+    #header{
+        font-family: "ANTON REGULAR";
+        align-text: center;
+    }
+    #parkcity{
+        font-family: "ANTON REGULAR";
+    }
+
+    #designbtn {
+        background-color: #E6563B;
+        color: white;
+
+        border-style: solid;
+        border-color: white;
+        border-width: 5px;
+
+    }
+
+    #developbtn {
+        background-color: #DEA03D;
+        color: white;
+        border-style: solid;
+        border-color: white;
+        border-width: 5px;
+
+
+
+    }
+    #supportbtn {
+        background-color: #7CB06C;
+        color: white;
+        border-style: solid;
+        border-color: white;
+        border-width: 5px;
+
+    }
+    #hostbtn {
+        background-color: #00ABA9;
+        color: white;
+        border-style: solid;
+        border-color: white;
+        border-width: 5px;
+
+    }
+
+    .btn-circle.btn-xl {
+        width: 105px;
+        height: 105px;
+        padding: 16px 16px;
+        border-radius: 90px;
+        font-size: 13px;
+        text-align: center;
+        border-color: 9px solid white;
+        font-weight: 900;
+        font-family: "ANTON REGULAR";
+        margin: 12px auto;
+    }
+
+    #paragraph{
+        margin-top: 75px;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    .btn-circle.btn-sm {
+        width: 18px;
+        height: 18px;
+        padding: 6px 0px;
+        border-radius: 15px;
+        font-size: 6px;
+        font-weight: bold;
+        font-family: "ABEL";
+        text-align: center;
+        margin: 0px auto;
+
+    }
+    .red {
+        background-color: #E6563B;
+    }
+    .yellow{
+        background-color: #DEA03D;
+    }
+    .green {
+        background-color: #7CB06C;
+    }
+    .blue {
+        background-color: #00ABA9;
+    }
+    #laptop{
+        border-style: solid;
+        border-color: #E6E6E6;
+        border-width: 10px;
+        border-radius: 5px;
+    }
+    #macbook{
+        border-style: solid;
+        border-color: #E6E6E6;
+        border-width: 10px;
+        border-radius: 5px;
+    }
+    #theMan{
+        border-style: solid;
+        border-color: #E6E6E6;
+        border-width: 10px;
+        border-radius: 5px;
+    }
+    #security{
+        border-style: solid;
+        border-color: #E6E6E6;
+        border-width: 10px;
+        border-radius: 5px;
+    }
+
+    #firstcard{
+        /*align-content: center;*/
+    }
+    #featured{
+        display: flex;
+        margin-bottom: 30px;
+
+
+
+    }
+    .card{
+        background-color: #f0f0f0;
+        border: none;
+    }
+    #icons{
+        background-color: #f0f0f0 ;
+        justify-content: space-between;
+
+    }
+
 
 }
 
@@ -186,4 +321,6 @@ nav .nav-item {
 
 
 
-}
+
+
+
