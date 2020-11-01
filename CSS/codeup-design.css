@@ -303,9 +303,7 @@ nav .nav-item {
         border-radius: 5px;
     }
 
-    #firstcard{
-        /*align-content: center;*/
-    }
+
     #featured{
         display: flex;
         margin-bottom: 30px;

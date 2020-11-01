@@ -1,0 +1,446 @@
+body {
+    font-family: "Abel", sans-serif;
+    background: #f0f0f0;
+}
+
+
+.wrapper {
+    max-width: 1100px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.brand-name {font-size: 1.75em;}
+
+nav a {
+    font-size: .75em;
+    color: black;
+}
+
+.nav-background {
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    height: 59px;
+    width: 100%;
+    top: 37px;
+    z-index: -1000;
+}
+
+nav .nav-item {
+    position: relative;
+    bottom: 6px;
+
+}
+
+.header{
+    font-family: ANTON;
+    margin-top: 10px;
+}
+.fonthead {
+    font-size: 44px;
+}
+.fonthead1 {
+    font-size: 24px;
+}
+
+.buttoncontain{
+    margin-inline-start: 11px;
+}
+#designbtn {
+    background-color: #E6563B;
+    color: white;
+
+    border-style: solid;
+    border-color: white;
+    border-width: 5px;
+
+}
+#developbtn {
+    background-color: #DEA03D;
+    color: white;
+    border-style: solid;
+    border-color: white;
+    border-width: 5px;
+
+
+
+}
+#supportbtn {
+    background-color: #7CB06C;
+    color: white;
+    border-style: solid;
+    border-color: white;
+    border-width: 5px;
+
+}
+#hostbtn {
+    background-color: #00ABA9;
+    color: white;
+    border-style: solid;
+    border-color: white;
+    border-width: 5px;
+
+}
+
+.btn-circle.btn-xl {
+    width: 105px;
+    height: 105px;
+    padding: 16px 16px;
+    border-radius: 90px;
+    font-size: 20px;
+    text-align: center;
+    border-color: 9px solid white;
+    font-weight: 900;
+    font-family: ANTON;
+    margin: 12px auto;
+}
+
+/* this is the end of the header and begining of the main container */
+
+
+.lstpara {
+    margin-top: 7em;
+    margin-bottom: 2em;
+    margin-left: 6em;
+}
+/* this is the selected work paragraph above this line */
+/* below begins the card deck */
+
+.btn-circle.btn-sm {
+    width: 18px;
+    height: 18px;
+    padding: 0px;
+    border-radius: 15px;
+    font-size: 10px;
+    font-weight: bold;
+    font-family: ANTON;
+    text-align: center;
+    margin: 0px 2px;
+
+}
+.red {
+    background-color: #E6563B;
+}
+.yellow{
+    background-color: #DEA03D;
+}
+.green {
+    background-color: #7CB06C;
+}
+.blue {
+    background-color: #00ABA9;
+}
+.card-img-top{
+    border-style: solid;
+    border-color: #E6E6E6;
+    border-width: 10px;
+    border-radius: 5px;
+    width: 100%;
+    height: 38vh;
+    object-fit: cover;
+}
+.imgcard{
+    align-content: center;
+    justify-content: space-between;
+    padding-top: 0px;
+    padding-right: 4px;
+}
+.card-title{
+    margin-left: -20px;
+    margin-right: -25px;
+}
+
+.buttons{
+    justify-content: space-evenly;
+}
+
+.card{
+    background-color: #f0f0f0;
+    border: none;
+}
+
+
+/*small media query begins*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .sub-title {
+        text-align: left;
+    }
+
+    hr {
+        width: 100%;
+    }
+
+    .brand-name {
+        position: relative;
+        top: 5px;
+
+    }
+    .wrapper {
+        max-width: 1100px;
+        width: 100%;
+        margin: 0 auto;
+    }
+    .header {
+        margin: 18px 0px;
+        font-family: ANTON;
+    }
+    .fonthead {
+        font-size: 42px;
+    }
+    .fonthead1 {
+        font-size: 30px;
+    }
+    .card-deck {
+        width: 100%;
+
+         }
+    .card-deck-row {
+        margin: -20px;
+    }
+
+    .imgcard{
+        align-content: center;
+        justify-content: space-between;
+        padding-top: 5px;
+        padding-right: 4px;
+    }
+
+    .card-img-top {
+        width: 100%;
+        height: 30vh;
+        object-fit: cover;
+    }
+    .lgbuttonrow {
+        margin: auto 0px;
+    }
+   .selectedwork {
+       margin-top: -5em;
+       margin-left: 8em;
+
+    }
+   .lstpara {
+       margin-bottom: -2em;
+   }
+    .card-title {
+        font-size: 13px;
+    }
+
+
+
+    .btn-circle.btn-xl {
+        width: 105px;
+        height: 105px;
+        padding: 16px 0px;
+        border-radius: 90px;
+        font-size: 20px;
+        text-align: center;
+        border-color: 9px solid white;
+        font-weight: 900;
+        font-family: ANTON;
+        margin: 12px auto;
+    }
+
+    .buttoncontain {
+        margin-inline-start: 24px;
+    }
+    .hrule{
+        height: 1px;
+        background: lightgrey;
+    }
+}
+
+/*medium media query begins */
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+    .brand-name {
+        position: relative;
+        top: 2px;
+        font-size: 30px;
+    }
+
+    .fonthead {
+        font-size: 40px;
+    }
+
+     .card-title {
+        margin-bottom: 2em;
+        font-size: 12px;
+    }
+
+    .img-fluid {
+        max-width: 3em;
+        height: 3em;
+        border-style: solid;
+        border-color: #E6E6E6;
+        border-width: 3px;
+        border-radius: 1px;
+        object-fit: cover;
+
+    }
+    .sidesection {
+        margin-top: .7em;
+    }
+    .sideheaders{
+        font-family: ANTON;
+
+    }
+    .sidebar {
+        margin-top: -4px;
+    }
+    .last-image{
+    border-style: none;
+    }
+    .twitter {
+    font-family: ABEL;
+    }
+    .lastpara {
+        font-size: 13px;
+    }
+    .thelast {
+        margin-left: 36.4em;
+        font-size: 12px;
+    }
+    .selectedwork {
+        margin-left: -79px;
+        font-size: 12px;
+    }
+    .lstpara {
+        margin-top: 3em;
+        margin-bottom: 1em;
+    }
+    .hrule {
+        height: 1px;
+        background: lightgrey;
+    }
+
+}
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .card-title {
+        margin-bottom: 2em;
+        font-size: 12px;
+    }
+
+    .img-fluid {
+        max-width: 3em;
+        height: 3em;
+        border-style: solid;
+        border-color: #E6E6E6;
+        border-width: 3px;
+        border-radius: 1px;
+        object-fit: cover;
+
+    }
+    .sidesection {
+        margin-top: .7em;
+    }
+    .sideheaders{
+        font-family: ANTON;
+
+    }
+    .sidebar {
+        margin-top: -4px;
+    }
+    .last-image{
+        border-style: none;
+    }
+    .twitter {
+        font-family: ABEL;
+    }
+    .lastpara {
+        font-size: 13px;
+    }
+    .thelast {
+        margin-left: 50.6em;
+        font-size: 12px;
+    }
+    .selectedwork {
+        margin-left: -79px;
+        font-size: 12px;
+    }
+    .lstpara {
+        margin-top: 3em;
+        margin-bottom: 1em;
+    }
+    .hrule {
+        height: 1px;
+        background: lightgrey;
+    }
+
+}
+@media (min-width: 1200px) {
+    .card-title {
+        margin-bottom: 2em;
+        font-size: 12px;
+    }
+
+    .largebuttons {
+        margin-left: 16.9em;
+    }
+    .img-fluid {
+        max-width: 3em;
+        height: 3em;
+        border-style: solid;
+        border-color: #E6E6E6;
+        border-width: 3px;
+        border-radius: 1px;
+        object-fit: cover;
+
+    }
+    .sidesection {
+        margin-top: .7em;
+    }
+    .sideheaders{
+        font-family: ANTON;
+
+    }
+    .sidebar {
+        margin-top: -4px;
+    }
+    .last-image{
+        border-style: none;
+    }
+    .twitter {
+        font-family: ABEL;
+    }
+    .lastpara {
+        font-size: 13px;
+    }
+    .thelast {
+        margin-left: 73.6em;
+        font-size: 12px;
+    }
+    .selectedwork {
+        margin-left: -74px;
+        font-size: 12px;
+    }
+    .lstpara {
+        margin-top: 3em;
+        margin-bottom: 1.5em;
+    }
+    .hrule {
+        height: 1px;
+        background: lightgrey;
+    }
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
